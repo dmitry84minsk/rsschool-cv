@@ -36,3 +36,5 @@ intervalId = setInterval(increment, 1000);
 timerBlock.textContent = inputNum.value;
 })
 ```
+# My photo
+![photo](C:\Users\KDFX Modes\Downloads\Telegram Desktop\20180722_153511.jpg)
