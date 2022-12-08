@@ -36,5 +36,17 @@ intervalId = setInterval(increment, 1000);
 timerBlock.textContent = inputNum.value;
 })
 ```
-# My photo
-![photo](C:\Users\KDFX Modes\Downloads\Telegram Desktop\20180722_153511.jpg)
+# My photo:
+![this is me](C:\Users\KDFX Modes\Downloads\Telegram Desktop\20180722_153511.jpg)
+
+# Courses:
+
+# The Rolling Scopes School
+* JS / FRONT-END (RU)
+
+# Languages:
+
+* English - Basic
+* Russia - Native
+* Belarussia - Native
+* Spain - Basic
