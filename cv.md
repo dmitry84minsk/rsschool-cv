@@ -1,12 +1,12 @@
 # Dmitry Timofeev 
 
-*Junior Frontend Developer
+###Junior Frontend Developer*
 
-*Contact information
+###Contact information
 
-*Phone:+375447099495
-**E-mail:dmitry84minsk.gmail.com
-* Telegram:dm1tryt1mofeev
+**Phone**:+375447099495
+**E-mail**:dmitry84minsk.gmail.com
+**Telegram**:dm1tryt1mofeev
 
 
 
