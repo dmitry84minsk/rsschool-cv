@@ -1,5 +1,7 @@
 # Dmitry Timofeev                       # My photo:
+
                                         ![this is me](/rsschool-cv/image/20180722_153511%20(1).jpg)
+
 **Junior Frontend Developer** 
 
 **Contact information:**
