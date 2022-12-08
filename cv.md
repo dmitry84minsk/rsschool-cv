@@ -22,7 +22,8 @@ Before I wanted to realize myself in IT, my past professions were related to the
 * Adobe Photoshop
 
 # Code example:
-`function increment(){
+`
+function increment(){
   if (timerBlock.textContent > 0){
     timerBlock.textContent --;
   } else if (timerBlock.textContent == 0){
@@ -33,4 +34,5 @@ Before I wanted to realize myself in IT, my past professions were related to the
 btn.addEventListener('click', () => {
 intervalId = setInterval(increment, 1000);
 timerBlock.textContent = inputNum.value;
-})`
+})
+`
