@@ -37,7 +37,7 @@ timerBlock.textContent = inputNum.value;
 })
 ```
 # My photo:
-![this is me](C:\Users\KDFX Modes\Downloads\Telegram Desktop\20180722_153511.jpg)
+![this is me](/rsschool-cv/image/20180722_153511.jpg)
 
 # Courses:
 
