@@ -1,3 +1,3 @@
 # Dmitry Timofeev
-**Junior Frontend Developer**
-**Contact information**
+** Junior Frontend Developer **
+** Contact information **
