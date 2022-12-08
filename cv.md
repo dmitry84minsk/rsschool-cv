@@ -36,9 +36,6 @@ intervalId = setInterval(increment, 1000);
 timerBlock.textContent = inputNum.value;
 })
 ```
-# My photo:
-![this is me](/rsschool-cv/image/20180722_153511%20(1).jpg)
-
 # Courses:
 
 # The Rolling Scopes School
@@ -50,3 +47,6 @@ timerBlock.textContent = inputNum.value;
 * Russia - Native
 * Belarussia - Native
 * Spain - Basic
+
+# My photo:
+![this is me](/rsschool-cv/image/20180722_153511%20(1).jpg)
