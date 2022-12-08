@@ -7,7 +7,7 @@
 * **Phone:** +375447099495
 * **E-mail:** dmitry84minsk@gmail.com
 * **Telegram:** dm1trym1nsk
-* **Discord:** dmitry84minsk#4318
+* **Discord:** Dmitry(@dmitry84minsk)
 * [Linkidin](https://www.linkedin.com/in/dmitry-timofeev-a36314168)
 
 # Briefly About Myself:
