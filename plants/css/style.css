@@ -1,0 +1,480 @@
+*,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+}
+
+h1,h2,h3,p{
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1222px;
+    margin: 0 auto;
+}
+
+:root{
+    --light-green:#EDF2EC;
+    --fonts_color:#010201;
+    --gray: #717171;
+    --light-gray:#636060;
+    --super_light-gray:#E3E1D5;
+    --green:#499A18;
+    --orange:#E06733;
+    --black:#000000;
+    --green-green:#D6E7D2;
+}
+
+.color{
+    color: var(--green);
+}
+
+.color__o{
+    color: var(--orange);
+}
+
+
+/*header*/
+
+.header{
+    background-color: var(--light-green);
+    padding-top: 44px;
+    padding-bottom: 55px;
+}
+
+
+
+.header__logo {
+    margin-right: auto;
+    padding-top: 6px;
+}
+
+.header__nav__item:not(:last-child){
+    margin-right: 55px;
+}
+
+.header__nav__list{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: var(--fonts_color);
+}
+
+.header__nav__list__home{
+    color: var(--orange);
+}
+
+/*welcome*/
+
+.welcome{
+    background-color: var(--light-green);
+}
+
+.welcome__content{
+    max-width: 549px;
+    padding-left: 675px;
+    padding-top: 79px;
+}
+
+.welcome__main{
+    background-image: url(../img/leafs.png);
+    background-repeat: no-repeat;
+    background-position: left -8px top 35px;
+    padding-bottom: 93px;
+}
+
+.welcome__title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 50px;
+    margin-bottom: 45px;
+}
+
+.welcome__descr{
+    margin-bottom: 50px;
+    font-family:   'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.welcome__btn{
+    padding: 9px 23px;
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    color: var(--black);
+    align-items: center;
+    text-align: center;
+    font-family: sa;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*about*/
+
+.about__main{
+    background-image: url(../img/houseplant\ 1.png);
+    background-repeat: no-repeat;
+    background-position: right top 94px;
+    padding-bottom: 152px;
+}
+
+.about__title{
+    max-width: 463px;
+    padding-top: 160px;
+    margin-bottom: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 52px;
+}
+
+.about__descr{
+    max-width: 605px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/*service*/
+
+.service{
+    background-color: var(--light-green);
+    padding-bottom: 64px;
+}
+
+.service__title{
+    padding-top: 40px;
+    margin-right: 140px;
+    max-width: 306px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.service__btn{
+    align-self: center;
+    padding: 12px 41px;
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.btn1{
+    padding: 12px 54px;
+}
+
+.service__btn__block{
+    align-self: center;
+    padding-top: 51px;
+}
+
+.btn{
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--orange);
+}
+
+
+.service__btn:not(:last-child){
+    margin-right: 38px;
+}
+
+.service__img1{
+    background-image: url(../img/first.jpg);
+}
+
+.service__img2{
+    background-image: url(../img/first\ \(1\).jpg);
+}
+
+.service__img3{
+    background-image: url(../img/first\ \(2\).jpg);
+}
+
+.service__img4{
+    background-image: url(../img/first\ \(3\).jpg);
+}
+
+.service__img5{
+    background-image: url(../img/first\ \(4\).jpg);
+}
+
+.service__img6{
+    background-image: url(../img/first\ \(5\).jpg);
+}
+
+.service__img{
+    width: 329px;
+    height: 350px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.service__list__title:not(:nth-child(3n)){
+    margin-right: 117px;
+}
+
+.service__list__title{
+    margin-bottom: 55px;
+}
+
+.service__list{
+    flex-wrap: wrap;
+}
+
+.service__item__block{
+    margin-bottom: 82px;
+}
+
+.service__content{
+    border: 1px solid var(--super_light-gray);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.service__content__title{
+    padding-top: 9px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--orange);
+}
+
+.service__content__text{
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--gray);
+}
+
+/*prices*/
+
+.prices__container{
+    justify-content: space-between;
+}
+
+.prices__left__title{
+    margin-bottom: 61px;
+    padding-top: 38px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--black);
+}
+
+.prices__right{
+    flex-direction: column;
+    background-image: url(../img/leafs-contacts.png);
+    background-repeat: no-repeat;
+    background-position: right -5px top 261px;;
+    padding-bottom: 330px;
+}
+
+.prices__right__text{
+    padding-top: 37px;
+    margin-bottom: 42px;
+    width: 452px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: right;
+    color: var(--black);
+}
+
+.prices__btn{
+    align-self: flex-end;
+    padding: 11px 30px;
+    border: 1px solid var(--orange);
+    border-radius: 5px;
+}
+
+.prices__btn__left{
+    align-self: center;
+    border: none;
+    background: transparent;
+}
+
+.prices__text{
+    margin-left: 42px;
+    width: 100px;
+    margin-right: 49px;
+    align-self: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--black);
+
+}
+
+.prices__select{
+    margin-top: 32px;
+    margin-left: 36px;
+    background-color: var(--green-green);
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+}
+
+.prices__main{
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    width: 332px;
+    height: 282.01px;
+}
+
+/*contacts*/
+
+.contacts{
+    background-color: var(--light-green);
+}
+
+.contacts__title{
+    padding-top: 57px;
+    padding-right: 67px;
+    margin-bottom: 36px;
+    text-align: center;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: var(--green);
+
+}
+
+.contacts__main{
+    justify-content: flex-end;
+    background-image: url(../img/contact_woman\ 1.png);
+    background-repeat: no-repeat;
+    background-position: left -3px top 53px;
+    padding-bottom: 355px;
+}
+
+
+.contacts__btn{
+    align-self: center;
+    border: none;
+    background: transparent;
+}
+
+.contacts__city__block{
+    margin-top: 146px;
+    background-color: var(--green-green);
+    width: 450px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contacts__city{
+    padding-right: 166px;
+}
+
+.contacts__text{
+    align-self: center;
+    padding-left: 20px;
+    width: 204px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: var(--gray);
+}
+
+/*footer*/
+
+.footer{
+    padding-top: 38px;
+}
+
+.footer__container{
+    justify-content: space-between;
+}
+
+.footer__text{
+    
+    margin-right: 20px;
+}
+
+.footer__item{
+    align-self: center;
+}
+
+.footer__item:not(:last-child){
+    margin-right: 28px;
+}
+
+.footer__text__main{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    color: var(--black);
+}
+
+.footer__svg{
+    align-self: center;
+}
+
+
+.footer__list{
+    margin-top: 8px;
+}
+
